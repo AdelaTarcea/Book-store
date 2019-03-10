@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bookstore>
+    <book id="1">
+        <Id>1</Id>
+        <name>Invitatie la vals</name>
+        <author>Mihail Dumas</author>
+        <year>2003</year>
+        <type>dragoste</type>
+    </book>
+    <book id="2">
+        <Id>2</Id>
+        <name>Adam si Eva</name>
+        <author>Liviu Rebreanu</author>
+        <year>1925</year>
+        <type>fictiune</type>
+    </book>
+    <book id="3">
+        <Id>3</Id>
+        <name>Scrisoare de dragoste</name>
+        <author>Mihail Dumas</author>
+        <year>2001</year>
+        <type>dragoste</type>
+    </book>
+</bookstore>

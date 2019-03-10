@@ -1,0 +1,12 @@
+ubb.ntt.bookstore
+ubb.ntt.bookstore.Domain
+ubb.ntt.bookstore.Domain.validators
+ubb.ntt.bookstore.Repository
+ubb.ntt.bookstore.Repository.database_repository
+ubb.ntt.bookstore.Repository.file_repository
+ubb.ntt.bookstore.Repository.in_memory
+ubb.ntt.bookstore.Repository.paging
+ubb.ntt.bookstore.Repository.paging.implementation
+ubb.ntt.bookstore.Repository.xml_repository
+ubb.ntt.bookstore.Service
+ubb.ntt.bookstore.UI

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sells>
+    <sell id="1">
+        <Id>1</Id>
+        <book_id>1</book_id>
+        <client_id>1</client_id>
+        <price>34.5</price>
+        <date>2019-35-09 10:35:09</date>
+    </sell>
+    <sell id="2">
+        <Id>2</Id>
+        <book_id>1</book_id>
+        <client_id>2</client_id>
+        <price>30.0</price>
+        <date>2019-35-09 10:35:21</date>
+    </sell>
+    <sell id="3">
+        <Id>3</Id>
+        <book_id>1</book_id>
+        <client_id>3</client_id>
+        <price>30.0</price>
+        <date>2019-37-09 10:37:17</date>
+    </sell>
+    <sell id="4">
+        <Id>4</Id>
+        <book_id>2</book_id>
+        <client_id>2</client_id>
+        <price>34.0</price>
+        <date>2019-38-09 10:38:55</date>
+    </sell>
+    <sell id="5">
+        <Id>5</Id>
+        <book_id>3</book_id>
+        <client_id>2</client_id>
+        <price>45.0</price>
+        <date>2019-39-09 10:39:14</date>
+    </sell>
+</sells>

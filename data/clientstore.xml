@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clientstore>
+
+    <customer name="Ana">
+        <Id>1</Id>
+        <name>Ana</name>
+        <telephone>0767445321</telephone>
+    </customer>
+    <customer name="Maria">
+        <Id>2</Id>
+        <name>Maria</name>
+        <telephone>0756443667</telephone>
+    </customer>
+    <customer name="Alex">
+        <Id>3</Id>
+        <name>Alex</name>
+        <telephone>0765554334</telephone>
+    </customer>
+    <customer name="Cristina">
+        <Id>4</Id>
+        <name>Cristina</name>
+        <telephone>0766554789</telephone>
+    </customer>
+</clientstore>
