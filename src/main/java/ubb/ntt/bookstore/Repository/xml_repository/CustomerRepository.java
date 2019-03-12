@@ -21,7 +21,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+/**
+ * CustomerRepository class for CRUD operation on  xml repository for a customer object .
+ *
+ * @author Adela
+ */
 public class CustomerRepository extends InMemoryRepository<Long, Customer> {
 
     private static String fileName;

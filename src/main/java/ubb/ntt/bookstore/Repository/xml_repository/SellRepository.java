@@ -21,7 +21,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+/**
+ * SellRepository class for CRUD operation on xml repository for a sell object .
+ *
+ * @author Adela
+ */
 public class SellRepository extends InMemoryRepository<Long, Sell> {
 
     private static String fileName;

@@ -21,7 +21,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+/**
+ * BookRepository class for CRUD operation on  xml repository for a book object .
+ *
+ * @author Adela
+ */
 public class BookRepository extends InMemoryRepository<Long, Book> {
 
     private static String fileName;
