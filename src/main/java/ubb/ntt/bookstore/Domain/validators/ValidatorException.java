@@ -3,7 +3,7 @@ package ubb.ntt.bookstore.Domain.validators;
 /**
  * ValidatorException class for custom validation exception for a specific type .
  *
- * @author adela.
+ * @author Adela.
  *
  */
 public class ValidatorException extends StoreException {

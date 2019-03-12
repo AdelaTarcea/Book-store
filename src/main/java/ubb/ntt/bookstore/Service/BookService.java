@@ -16,7 +16,7 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 /**
- * BookService provides business logic for book object .
+ * BookService provides business logic for book objects .
  *
  * @author Adela
  */

@@ -15,13 +15,13 @@ public class Book extends BaseEntity<Long> {
     private int year;
 
     /**
-     * This is a constructor for initialize an empty book object.
+     * This is a constructor to initialize an empty book object.
      */
     public Book() {
     }
 
     /**
-     * This is a constructor for initialize a book object.
+     * This is a constructor to initialize a book object.
      *
      * @param name   an initial book name.
      * @param author an initial book author.

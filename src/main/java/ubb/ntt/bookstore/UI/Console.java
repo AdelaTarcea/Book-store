@@ -155,7 +155,7 @@ public class Console {
 
         if (optional.isPresent()) {
             try {
-                customerService.addClient(optional.get());
+                customerService.addCustomer(optional.get());
             } catch (ValidatorException e) {
                 System.out.println(e.getMessage());
             }
@@ -168,7 +168,7 @@ public class Console {
         long id = scanner.nextLong();
 
         try {
-            customerService.deleteClient(id);
+            customerService.deleteCustomer(id);
         } catch (ValidatorException e) {
             System.out.println(e.getMessage());
         }
@@ -179,7 +179,7 @@ public class Console {
         Optional<Customer> optional = readCustomer();
         if (optional.isPresent()) {
             try {
-                customerService.updateClient(optional.get());
+                customerService.updateCustomer(optional.get());
             } catch (ValidatorException e) {
                 System.out.println(e.getMessage());
             }
@@ -187,7 +187,7 @@ public class Console {
     }
 
     private void printAllCustomers() {
-        Set<Customer> customers = customerService.getAllClients();
+        Set<Customer> customers = customerService.getAllCustomers();
         customers.stream().forEach(System.out::println);
     }
 

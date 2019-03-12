@@ -1,7 +1,7 @@
 package ubb.ntt.bookstore.Repository.paging;
 
 /**
- * @author Adela.
+ * Interface to define page structure   .
  */
 public interface Pageable {
     /**

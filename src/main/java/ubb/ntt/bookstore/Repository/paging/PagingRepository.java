@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Collection;
 
 /**
- * author: Adela
+ * Interface to return a page content
  */
 public interface PagingRepository<ID extends Serializable,
         T extends BaseEntity<ID>> extends Repository<ID, T> {

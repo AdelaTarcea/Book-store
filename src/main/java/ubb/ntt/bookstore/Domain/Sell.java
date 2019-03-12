@@ -8,7 +8,7 @@ import java.util.Objects;
 /**
  * Sell class is use for storing sell information.
  *
- * @author adela
+ * @author Adela
  */
 public class Sell extends BaseEntity<Long> {
     private long bookId;
@@ -17,13 +17,13 @@ public class Sell extends BaseEntity<Long> {
     private double price;
 
     /**
-     * This is a constructor for initialize an empty sell object.
+     * This is a constructor to initialize an empty sell object.
      */
     public Sell() {
     }
 
     /**
-     * This is a constructor for initialize a sell object.
+     * This is a constructor to initialize a sell object.
      *
      * @param bookId   an initial sell  bookId.
      * @param clientId an initial sell clientId.

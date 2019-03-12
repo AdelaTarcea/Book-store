@@ -5,7 +5,7 @@ import ubb.ntt.bookstore.Domain.Customer;
 /**
  * CustomerValidator class validates a customer object.
  *
- * @author adela.
+ * @author Adela.
  */
 public class CustomerValidator implements Validator<Customer> {
 

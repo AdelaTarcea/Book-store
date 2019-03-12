@@ -2,6 +2,10 @@ package ubb.ntt.bookstore.Repository.paging.implementation;
 
 import ubb.ntt.bookstore.Repository.paging.Pageable;
 
+/**
+ * Defines page structure for a specific type   .
+
+ */
 public class PageableImpl implements Pageable {
     private int pageNumber;
     private int pageSize;

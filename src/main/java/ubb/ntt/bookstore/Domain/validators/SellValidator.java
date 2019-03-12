@@ -6,7 +6,7 @@ import ubb.ntt.bookstore.Domain.Sell;
 /**
  * SellValidator class validates a sell object.
  *
- * @author adela.
+ * @author Adela.
  */
 
 public class SellValidator implements Validator<Sell> {

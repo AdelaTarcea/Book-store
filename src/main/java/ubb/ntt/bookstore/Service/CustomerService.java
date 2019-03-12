@@ -1,6 +1,5 @@
 package ubb.ntt.bookstore.Service;
 
-import ubb.ntt.bookstore.Domain.Book;
 import ubb.ntt.bookstore.Domain.Customer;
 import ubb.ntt.bookstore.Domain.validators.ValidatorException;
 import ubb.ntt.bookstore.Repository.Repository;
@@ -13,6 +12,11 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
+/**
+ * CustomerService provides business logic for customer objects .
+ *
+ * @author Adela
+ */
 public class CustomerService {
     private int page = 0;
     private int size = 1;
@@ -22,22 +26,40 @@ public class CustomerService {
 
     public CustomerService(Repository<Long, Customer> repository, PagingRepository<Long, Customer> pagingRepository) {
         this.repository = repository;
-        this.pagingRepository=pagingRepository;
+        this.pagingRepository = pagingRepository;
     }
 
-    public void addClient(Customer customer) throws ValidatorException {
+    /**
+     * Add a new customer
+     *
+     * @param customer a new costumer
+     */
+    public void addCustomer(Customer customer) throws ValidatorException {
         repository.save(customer);
     }
-
-    public void deleteClient(Long id) throws ValidatorException {
+    /**
+     * Delete customer
+     *
+     * @param id costumer's id
+     */
+    public void deleteCustomer(Long id) throws ValidatorException {
         repository.delete(id);
     }
-
-    public void updateClient(Customer customer) throws ValidatorException {
+    /**
+     * update customer
+     *
+     * @param customer costumer to update
+     */
+    public void updateCustomer(Customer customer) throws ValidatorException {
         repository.update(customer);
     }
 
-    public Set<Customer> getAllClients() {
+    /**
+     * print all customers
+     *
+     * @return  a set of costumers
+     */
+    public Set<Customer> getAllCustomers() {
         Iterable<Customer> clients = repository.findAll();
         return StreamSupport.stream(clients.spliterator(), false).collect(Collectors.toSet());
     }
@@ -50,6 +72,11 @@ public class CustomerService {
     public void setPageSize(int size) {
         this.size = size;
     }
+    /**
+     * Set the page  for paginating clients
+     *
+     * @param page page number
+     */
     public void setPage(int page) {
         this.page = page;
     }

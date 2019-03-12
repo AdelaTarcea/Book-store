@@ -4,7 +4,8 @@ package ubb.ntt.bookstore.Repository.paging;
 import java.util.stream.Stream;
 
 /**
- * author: Adela
+ * Interface for getting the page content for a specific type   .
+ *
  */
 public interface Page<T> {
     Pageable getPageable();

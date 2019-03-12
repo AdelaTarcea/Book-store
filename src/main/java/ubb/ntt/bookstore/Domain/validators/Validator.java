@@ -3,12 +3,12 @@ package ubb.ntt.bookstore.Domain.validators;
 /**
  * Interface for custom validators for a specific type.
  *
- * @author adela.
+ * @author Adela.
  */
 public interface Validator<T> {
 
     /**
-     * Method to validate an entity.
+     * Validate an entity of a specific type.
      *
      * @param entity -object we want to validate.
      * @throws ValidatorException if the entity is not valid

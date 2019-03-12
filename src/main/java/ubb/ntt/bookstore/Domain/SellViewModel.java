@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * SellViewModel class is use to display a sold book .
  *
- * @author adela
+ * @author Adela
  */
 public class SellViewModel extends BaseEntity<Long> {
     private Book book;
@@ -14,7 +14,7 @@ public class SellViewModel extends BaseEntity<Long> {
     private double price;
 
     /**
-     * This is a constructor for initialize a sell object.
+     * This is a constructor to initialize a sell object.
      *
      * @param book     a book object - the book to sell
      * @param customer an customer object - the customer who buys the book

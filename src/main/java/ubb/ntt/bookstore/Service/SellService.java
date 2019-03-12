@@ -15,6 +15,11 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
+/**
+ * SellService provides business logic for sell objects .
+ *
+ * @author Adela
+ */
 public class SellService {
     private int page = 0;
     private int size = 1;
@@ -110,7 +115,12 @@ public class SellService {
 
 
     }
-
+    /**
+     * Return all the books bought by a client
+     *
+     * @param client_id client's id for who we want to see the books he bought
+     * @return set - a set of books the client bought
+     */
 
     public Set<Book> booksSellToClient(Long client_id) {
 

@@ -5,7 +5,10 @@ import ubb.ntt.bookstore.Repository.paging.Pageable;
 
 import java.util.stream.Stream;
 
-
+/**
+ * Print  page content for a specific type   .
+ *
+ */
 public class PageImpl<T> implements Page<T> {
     private Pageable pageable;
     private Stream<T> content;

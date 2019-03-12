@@ -3,7 +3,7 @@ package ubb.ntt.bookstore.Domain.validators;
 /**
  * StoreException class for custom exception .
  *
- * @author adela.
+ * @author Adela.
  *
  */
 public class StoreException extends RuntimeException{

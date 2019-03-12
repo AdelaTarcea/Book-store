@@ -6,20 +6,20 @@ import java.util.Objects;
 /**
  * Customer class is use for storing costumer information.
  *
- * @author adela
+ * @author Adela
  */
 public class Customer extends BaseEntity<Long> {
     private String name, telephoneNumber;
 
 
     /**
-     * This is a constructor for initialize an empty customer object.
+     * This is a constructor to initialize an empty customer object.
      */
     public Customer() {
     }
 
     /**
-     * This is a constructor for initialize a customer object.
+     * This is a constructor to initialize a customer object.
      *
      * @param name            an initial customer name.
      * @param telephoneNumber an initial customer telephone.

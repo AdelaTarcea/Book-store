@@ -5,7 +5,7 @@ import ubb.ntt.bookstore.Domain.Book;
 /**
  * BookValidator class validates a book object.
  *
- * @author adela.
+ * @author Adela.
  */
 public class BookValidator implements Validator<Book> {
     @Override

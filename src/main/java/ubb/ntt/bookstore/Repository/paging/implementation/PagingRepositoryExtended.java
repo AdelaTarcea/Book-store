@@ -12,7 +12,11 @@ import java.util.stream.Stream;
 public interface PagingRepositoryExtended<ID extends Serializable,
         T extends BaseEntity<ID>>
         extends PagingRepository<ID, T> {
-
+    /**
+     * @param collection a collection of a specific type .
+     * @param pageable page structure
+     * @return page -new page content.
+     */
     default Page<T> findAll(Collection<T> collection, Pageable pageable) {
         int startIndex = pageable.getPageNumber() * pageable.getPageSize();
         Stream<T> res = collection.stream()
