@@ -10,4 +10,4 @@ It performs CRUD operations on three entities (Book , Client , Sell )  and saves
 * BookDatabaseRepository.java 
 * CustomerDatabaseRepository.java 
 * SellDatabaseRepository.java 
-### for a better project overview use java documentation :  [https://adelatarcea.github.io/Book-store/]
+### for a better project overview use java documentation :  [https://adelatarcea.github.io/book-store/]
