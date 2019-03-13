@@ -94,7 +94,7 @@ public class BookService {
      * followed by the books whose year is greater than the given year.
      *
      * @param year given year
-     * @return list of books which in two parts
+     * @return a set of books which in two parts
      */
     public List<Book> filterBooksByYear(int year) {
         Iterable<Book> books = repository.findAll();

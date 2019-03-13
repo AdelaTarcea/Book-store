@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * InMemoryRepository class - repository  for generic CRUD operations for a  specific type . Store  entity in memory for a specific type..
+ * InMemoryRepository class - repository  for generic CRUD operations for a  specific type . Store  entity in memory for a specific type.
  * @author Adela
  */
 public class InMemoryRepository<ID extends Serializable, T extends BaseEntity<ID>>

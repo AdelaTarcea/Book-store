@@ -40,7 +40,15 @@ public class SellService {
         this.costumerRepository = costumerRepository;
         this.pagingRepository = pagingRepository;
     }
-
+    /**
+     * Add a new sell
+     *
+     * @param id a new sell id
+     * @param bookId a new sell's book id
+     * @param costumerId a new sell's customer id
+     * @param price a new sell's price
+     * @param date a new sell's date
+     */
     public void addSell(Long id, Long bookId, Long costumerId, Double price, String date) throws ValidatorException {
 
 
@@ -63,15 +71,27 @@ public class SellService {
 
 
     }
-
+    /**
+     * update sell
+     *
+     * @param sell sell to update
+     */
     public void updateSell(Sell sell) throws ValidatorException {
         repository.update(sell);
     }
-
+    /**
+     * Delete sell
+     *
+     * @param id sell's id
+     */
     public void deleteSell(Long id) throws ValidatorException {
         repository.delete(id);
     }
-
+    /**
+     * Returns the number of books sold by every author
+     *
+     * @return a map which has for every author the numbers of book he sold
+     */
     public Map<String, Integer> nrOfBooksForEveryAuthor() {
 
         Set<SellViewModel> allSells = getAllSells();
@@ -94,7 +114,11 @@ public class SellService {
         return maxElemList;
     }
 
-
+    /**
+     * print all sells
+     *
+     * @return  a set of sells
+     */
     public Set<SellViewModel> getAllSells() {
         Iterable<Sell> sells = repository.findAll();
 

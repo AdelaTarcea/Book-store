@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * SellDatabaseRepository class for CRUD operation on a file repository for a book object .
+ * BookFileRepository class for CRUD operation on a file repository for a book object .
  *
  * @author Adela
  */

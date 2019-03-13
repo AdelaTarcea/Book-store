@@ -65,7 +65,7 @@ public class CustomerService {
     }
 
     /**
-     * Set the page size for paginating clients
+     * Set the page size for paginating customers
      *
      * @param size number of elements displayed on one page
      */
@@ -73,7 +73,7 @@ public class CustomerService {
         this.size = size;
     }
     /**
-     * Set the page  for paginating clients
+     * Set the page  for paginating customers
      *
      * @param page page number
      */

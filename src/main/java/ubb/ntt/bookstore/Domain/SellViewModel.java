@@ -3,7 +3,7 @@ package ubb.ntt.bookstore.Domain;
 import java.util.Objects;
 
 /**
- * SellViewModel class is use to display a sold book .
+ * SellViewModel class is use to display a sold .
  *
  * @author Adela
  */

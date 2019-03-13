@@ -58,7 +58,7 @@ public class Sell extends BaseEntity<Long> {
     }
 
     /**
-     * To set a sell's book object dependency.
+     * To set a sell's book id.
      *
      * @param bookId a book id
      */
@@ -67,7 +67,7 @@ public class Sell extends BaseEntity<Long> {
     }
 
     /**
-     * To get a sell's client object dependency.
+     * To get a sell's client id.
      *
      * @return clientId
      */
